@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*Lymonade.com - Hier kommt noch ein Slogan - Stylesheet*/
+
+a {
+    color: lightgrey;
+    padding: 12px;
+    text-decoration: none;
+    transition: #1fb0b2 0.3s ease;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1fb0b2;
+	text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #B8B8B9;
+    background-color: #161618;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    display: block;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+hr {
+    width: 98%;
+    color: #888888;
+}
+
+article,
+aside,
+details,
+div,
+figcaption,
+figure,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+code,
+samp,
+kbd,
+var {
+    font-family: monospace;
+}
+
+code {
+    font-size: 90%;
+    color: #8b2ada;
+}
+
+pre {
+    font-family: monospace;
+    white-space: pre;
+    text-shadow: 2px 5px 15px #1dadb0;
+}
+
+.anim {
+    margin: 0;
+    animation: color 0.6s linear infinite !important;
+}
+
+@keyframes color {
+    0% { color: red; }
+    25% { color: yellow; }
+    50% { color: #1FB2B0; }
+    75% { color: #23dd06; }
+    100% {  color: red; }
+}
+
+@-webkit-keyframes color {
+    0% { color: red; }
+    25% { color: yellow; }
+    50% {  color: #1FB2B0; }
+    75% { color: #23dd06; }
+    100% { color: red; }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #9b9999 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 15px;
+    background: #1fb2b0 !important;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #222222 !important;
+    width: 10px;
+    max-height: 10px !important;
+}
