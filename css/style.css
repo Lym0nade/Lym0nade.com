@@ -27,12 +27,47 @@ a:hover {
 	text-decoration: none;
 }
 
+a.fork {
+    padding: 0px;
+    color: #1fb0b2;
+}
+
+a.footer {
+    color: #1fb0b2;
+    text-decoration: none;
+}
+
+a.footer:hover {
+    color: white;
+    text-decoration: none;
+}
+
 body {
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.5;
     color: #B8B8B9;
     background-color: #161618;
+}
+
+button {
+    display: inline-block;
+    background-color: #1fb0b2;
+    color: #ffffff;
+    border: 0px #1fb0b2 solid;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+}
+
+button:hover {
+	background-color: #ffffff;
+	color: #1fb0b2;
+	transition: #1fb0b2 0.3s linear;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	text-shadow: 2px 2px 5px #1fb0b2;
+    box-shadow: 0 0 5px rgba(31,176,178,1)
 }
 
 h1,
@@ -98,6 +133,11 @@ pre {
     text-shadow: 2px 5px 15px #1dadb0;
 }
 
+strong {
+    color: #1fb2b0;
+    font-style: bold;
+}
+
 .anim {
     margin: 0;
     animation: color 0.6s linear infinite !important;
@@ -108,6 +148,14 @@ pre {
     padding-left: 0px;
     position: fixed;
     max-height: 50px;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
 }
 
 #header {
